@@ -19,7 +19,7 @@
     String connectionUrl = "jdbc:mysql://localhost:3306/";
     String database = "fakultetzp?autoReconnect=true&useSSL=false";
     String userid = "root";
-    String password = "milicamilekic";
+    String password = "";
     try {
         Class.forName(driver);
     } catch (ClassNotFoundException e) {
