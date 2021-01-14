@@ -12,7 +12,7 @@
 <%! String driverName = "com.mysql.jdbc.Driver";%>
 <%!String url = "jdbc:mysql://localhost:3306/fakultetzp?autoReconnect=true&useSSL=false";%>
 <%!String user = "root";%>
-<%!String psw = "milicamilekic";%>
+<%!String psw = "";%>
 <%
     String idd = request.getParameter("pro_id");
     String imee = request.getParameter("pro_ime");
