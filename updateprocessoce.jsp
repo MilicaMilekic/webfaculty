@@ -12,7 +12,7 @@
 <%! String driverName = "com.mysql.jdbc.Driver";%>
 <%!String url = "jdbc:mysql://localhost:3306/fakultetzp?autoReconnect=true&useSSL=false";%>
 <%!String user = "root";%>
-<%!String psw = "milicamilekic";%>
+<%!String psw = "";%>
 <%
     String ido = request.getParameter("oce_id");
     String ocena = request.getParameter("oce_ocena");
