@@ -17,7 +17,7 @@
          try{
              Class.forName("com.mysql.jdbc.Driver");
              String url = "jdbc:mysql://" + "localhost:3306" + "/" + "fakultetzp?autoReconnect=true&useSSL=false";
-             Connection conn = DriverManager.getConnection(url, "root", "milicamilekic");
+             Connection conn = DriverManager.getConnection(url, "root", "");
              Statement stmt = conn.createStatement();
              ResultSet rs = stmt.executeQuery("SELECT * FROM fakultetzp.korisnik");
              ResultSetMetaData meta = rs.getMetaData();
