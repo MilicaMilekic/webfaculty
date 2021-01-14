@@ -10,10 +10,10 @@ enter grades.
  - When the admin logs in, his page view contains information about all the students
 and the professors, and he has the ability to update, delete, and add grades, students,
 and professors.
- Technologies I used for this project are:
-- MySQL 
-- Java Server Pages
-- GlassFish Server
-- HTML and CSS(Bootstrap)
-- AJAX
+ - Technologies I used for this project are:
+-MySQL 
+-Java Server Pages
+-GlassFish Server
+-HTML and CSS(Bootstrap)
+-AJAX
 
