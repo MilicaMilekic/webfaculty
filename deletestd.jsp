@@ -10,7 +10,7 @@
     String stdid = request.getParameter("std_id");
     try {
         Class.forName("com.mysql.jdbc.Driver");
-        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/fakultetzp?autoReconnect=true&useSSL=false", "root", "milicamilekic");
+        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/fakultetzp?autoReconnect=true&useSSL=false", "root", "");
         Statement st = conn.createStatement();
         int i = st.executeUpdate("DELETE FROM fakultetzp.student WHERE std_id=" + stdid);
         out.println("Uspesno ste izbrisali studenta!");
