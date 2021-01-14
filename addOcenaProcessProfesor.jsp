@@ -18,7 +18,7 @@
     try {
 
         Class.forName("com.mysql.jdbc.Driver");
-        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/fakultetzp?autoReconnect=true&useSSL=false", "root", "milicamilekic");
+        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/fakultetzp?autoReconnect=true&useSSL=false", "root", "");
         Statement st = conn.createStatement();
         int i = st.executeUpdate("INSERT INTO fakultetzp.ocena(oce_ocena,std_id,pre_id,pro_id)values('" + oce_oce + "','" + stdid + "','" + preid + "','" + proid + "')");
        
